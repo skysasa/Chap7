@@ -1,0 +1,123 @@
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-tool-icon {
+    display: flex;
+
+}
+
+.icon-indi {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-brand {
+    padding-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover {
+    color: #0006cf;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.nav-item a:hover {
+    color: #0006cf;
+}
+
+.icon-indi:hover {
+    color: #0006cf;
+}
+
+.mid-subline {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+
+.mid-subline a{
+    margin-right: 20px;
+}
+
+
+.sub-headline h2 {
+    margin-bottom: 50px;
+}
+.sub-headline a {
+    text-decoration: none; 
+    color: #0006cf;
+    position: relative; 
+}
+
+.hover-underline::after {
+    content: ''; 
+    position: absolute; 
+    left: 0;
+    bottom: -10px;
+    width: 100%; 
+    height: 1px; 
+    background-color: #0006cf;
+    transform: scaleX(0); 
+    transform-origin: bottom right; 
+    transition: transform 0.3s ease-out; 
+}
+.hover-underline:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+    
+}
+
+.hover-underline:hover {
+    color: #0006cf;
+}
+
+.text-test {
+ position: relative;
+ bottom: -150px;
+ color: white;
+}
+
+footer {
+    background-color: black;
+    color:white;
+}
+.footer-items a {
+    text-decoration: none;
+    color: white;
+    padding: none;
+}
+
+.footer-items a:hover {
+    color: #0006cf;
+}
+
+.first-line {
+    border-bottom: 1px solid white;
+}
+
+.info-box {
+    display: none;
+}
+
+@media screen and (max-width: 48rem) {
+    .footer-media-center{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .info-box {
+        display: block;
+    }
+}
+
+
